@@ -25,12 +25,12 @@ Este repositório representa o trabalho apresentado a disciplina de Desenvolvime
 # Estrutura de pastas
 - **[docs](docs/)**: Documentos referentes ao projeto.
 - **[src](src)**: source do projeto.
-	- **[res](src\res)**: pastas de resource do projeto.
-		- **[img](src\res\img)**: Essa pasta contém as imagens do projeto.
-		- **[icons](src\res\icons)**: Essa pasta contém os ícones do projeto.
-	- **[pages](src\pages)**: Essa pasta contém as paginas do projeto.
-	- **[scripts](src\scripts)**: Essa pasta contém todos os códigos JavaScript.
-	- **[styles](src\styles)**: Essa pasta contém os códigos CSS.
+	- **[res](src/res)**: pastas de resource do projeto.
+		- **[img](src/res/img)**: Essa pasta contém as imagens do projeto.
+		- **[icons](src/res/icons)**: Essa pasta contém os ícones do projeto.
+	- **[pages](src/pages)**: Essa pasta contém as paginas do projeto.
+	- **[scripts](src/scripts)**: Essa pasta contém todos os códigos JavaScript.
+	- **[styles](src/styles)**: Essa pasta contém os códigos CSS.
   
 
 
