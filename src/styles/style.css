@@ -1,2 +1,126 @@
+/********************************************************************************
+*                           ORGANIZAÇÃO CSS                          *
+*********************************************************************************
+* 1 - Declaração das variáveis
+* 2 - Formatação padrão dos componentes
+* 3 - Header
+* 4 - Footer
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* 1 - Declaração das variáveis utilizadas */
+:root {
+    --primary1: #F05454;
+    --primary2: #30475E;
+    --secondary1: #222831;
+    --secondary2: #F5F5F5;
+    --detail: #FFF8B8;
+}
+
+/* 2 - Formatação padrão dos componentes */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.bodyHome {
+    background-color: var(--primary2);
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.btnRefs {
+    background-color: var(--primary1);
+    color: var(--primary2);
+
+}
+
+/* .btnRefs:hover {
+    background-color: var(--primary2);
+    color: var(--primary1);
+} */
+
+/* 3 - Header */
+
+.headerOption {
+    height: 3rem;
+    color: var(--secondary2);
+    background-color: var(--primary1);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.routes {
+    color: var(--primary1);
+    background-color: var(--secondary2);
+    border: none;
+    margin: 0em 2em;
+    font-size: 1.5em;
+    padding: 20px 5px;
+    text-decoration: none;
+}
+
+.routes:hover {
+    color: var(--secondary2);
+    background-color: var(--primary1);
+    border-bottom: 5px solid var(--primary2);
+    padding: 20px 5px;
+}
 
 
+/* 4 - Footer */
+#footerPage {
+    padding-top: 20px;
+}
+
+.footerCopy {
+    color: var(--secondary2);
+    background-color: var(--secondary1);
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/* Outros */
+
+.rectangle {
+    box-sizing: border-box;
+    width: 25rem;
+    height: 34rem;
+    border: 5px solid var(--detail);
+}
+
+/* Home */
+
+.homeLT, .homeGT, .homeHTML{
+    font-size: 5.563rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem;
+}
+.homePage {
+    font-size: 3.02rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.1rem;
+}
