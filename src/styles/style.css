@@ -28,6 +28,71 @@ body {
     font-family: 'Inter';
 }
 
+.bodyRef{
+    background-color: var(--secondary2);
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 62.279rem;
+    max-height: 103.169rem;
+    margin-left: 14.688rem;
+    margin-top: 11.375rem;
+    margin-right: 43.188rem;
+}
+caption{
+    text-align: center;
+    font-size: 5.488rem;
+    background-color: var(--secondary1);
+    color: var(--secondary2);
+    max-height: 8.807rem;
+    
+}
+th, td {
+    text-align: left;
+    padding: 0.5rem;
+    height: 6.291rem;
+}
+
+tr:nth-child(3n+1){
+    background-color: var(--primary1);
+    color: var(--secondary2);
+}
+tr:nth-child(3n+2){
+    background-color: var(--primary2);
+    color: var(--secondary2);
+}
+
+tr:nth-child(3n+3){
+    background-color: var(--secondary1);
+    color: var(--secondary2);
+}
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.15);
+} 
+
+.tableAll a{
+    color: var(--secondary2);
+    text-decoration: none;
+    
+}
+
+.tdName{
+    min-width: 18.118rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.tdDescription{
+    min-width: 18.118rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+}
+
+
 .bodyHome {
     background-color: var(--primary2);
 }
@@ -48,6 +113,7 @@ body {
 
 }
 
+
 /* .btnRefs:hover {
     background-color: var(--primary2);
     color: var(--primary1);
@@ -65,6 +131,7 @@ body {
     align-items: center;
     font-family: 'Inter';
 }
+
 
 .routes {
     color: var(--primary1);
@@ -86,19 +153,22 @@ body {
 
 /* 4 - Footer */
 #footerPage {
-    padding-top: 20px;
+    padding-top: 4.5rem;
+    min-height: 2.5rem;
+    background-color: var(--secondary1);
 }
 
 .footerCopy {
     color: var(--secondary2);
-    background-color: var(--secondary1);
+    font-size: 1.2rem;
+}
+
+span.footerCopy{
     display: flex;
     font-size: 1.2rem;
     text-align: center;
     justify-content: center;
-    padding-top: 5px;
 }
-
 /* Outros */
 
 .rectangle {
@@ -110,13 +180,16 @@ body {
 
 /* Home */
 
-.homeLT, .homeGT, .homeHTML{
+.homeLT,
+.homeGT,
+.homeHTML {
     font-size: 5.563rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     line-height: 4rem;
 }
+
 .homePage {
     font-size: 3.02rem;
     font-family: 'Inter';
