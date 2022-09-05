@@ -9,6 +9,16 @@
     --detail: #FFF8B8;
 }
 
+.cB{
+    color: #30475E;
+}
+.cR{
+    color: #F05454;
+}
+.cBk{
+    color: #222831;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +26,7 @@
 
 body {
     font-family: 'Inter';
+    background-color: #F5F5F5;
 }
 
 .bodyRef{
@@ -80,21 +91,45 @@ section{
     background: rgba(0, 128, 0, 0);
     margin-left: 8%;
     margin-right: 200px;
-    height: 93vh
+    min-height: 93vh
 }
 
 h1{
     padding: 60px 0px 70px 0px;
     color: #F05454;
-    font-size: 7em;
+    font-size: 6em;
+}
+h2{
+    margin-left: 30px;
+    font-size: 3em;
 }
 
 .cod1{
-    height: 100px;
-    width: 100px;
-    background: #62c01f;
-    margin: 10px;
+    /* height: 100px;
+    width: 100px; */
+    max-width: 1000px;
+    background: #30475E;
+    margin: 0px 10px 150px;
+    padding: 50px 80px 20px 50px;
 }
+.cod1 > p {
+    color: #F5F5F5;
+    font-size: 2em;
+    padding: 10px;
+}
+.cod00{
+    background-color: #F05454;
+}
+.conteudoCod{
+    margin-left: 20px;
+    padding: 40px 20px;
+    background:#222831;
+    height: 200px;
+    color: #F5F5F5;
+    font-size: 1.5em;
+    overflow: auto;
+}
+
 .desc{
     height: 100px;
     width: 100px;
@@ -124,7 +159,7 @@ h1{
 
 
 footer{
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     background-color: rgb(15, 15, 15);
     padding: 5px;
     color: white;
