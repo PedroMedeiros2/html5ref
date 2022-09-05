@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* 1 - Declaração das variáveis utilizadas */
+:root {
+    --primary1: #F05454;
+    --primary2: #30475E;
+    --secondary1: #222831;
+    --secondary2: #F5F5F5;
+    --detail: #FFF8B8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.bodyRef{
+    background-color: var(--secondary2);
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 62.279rem;
+    max-height: 103.169rem;
+    margin-left: 14.688rem;
+    margin-top: 11.375rem;
+    margin-right: 43.188rem;
+}
+caption{
+    text-align: center;
+    font-size: 5.488rem;
+    background-color: var(--secondary1);
+    color: var(--secondary2);
+    max-height: 8.807rem;
+    
+}
+th, td {
+    text-align: left;
+    padding: 0.5rem;
+    height: 6.291rem;
+}
+
+tr:nth-child(3n+1){
+    background-color: var(--primary1);
+    color: var(--secondary2);
+}
+tr:nth-child(3n+2){
+    background-color: var(--primary2);
+    color: var(--secondary2);
+}
+
+tr:nth-child(3n+3){
+    background-color: var(--secondary1);
+    color: var(--secondary2);
+}
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.15);
+} 
+
+.tableAll a{
+    color: var(--secondary2);
+    text-decoration: none;
+    
+}
+
+.tdName{
+    min-width: 18.118rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.tdDescription{
+    min-width: 18.118rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+}
