@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+/* 1 - Declaração das variáveis utilizadas */
+:root {
+    --primary1: #F05454;
+    --primary2: #30475E;
+    --secondary1: #222831;
+    --secondary2: #F5F5F5;
+    --detail: #FFF8B8;
+}
+
+/* 2 - Formatação padrão dos componentes */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter'; 
+}
+
+header{
+    background-color: #F05454;
+    padding: 20px 0px;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botaoHome {
+    color: var(--primary1);
+    background-color: var(--secondary2);
+    border: none;
+    margin: 0em 0em;
+    font-size: 1.5em;
+    padding: 20px 60px;
+    text-decoration: none;
+    transition-delay: 0.15s;
+}
+.botaoHome:hover{
+    color: var(--secondary2);
+    background-color: var(--primary1);
+    /* border-bottom: 5px solid var(--primary2); */
+    padding: 20px 60px;
+    transition-delay: 0.1s;
+}
+
+main{
+    background-color: #F5F5F5;
+    /* display: flex;
+    flex: 1 0 auto;  */
+    /* flex-wrap: wrap; */
+    box-shadow: inset 0px 12px 10px -10px #000000;
+    /* min-height: 90vh; */
+}
+
+.corpo1{
+    min-height: 90vh;
+}
+.Daniel{
+    display: inline-block;
+    width: 340px;
+    height: 800px;
+    background: #F05454;
+    margin-left: 120px;
+    box-shadow: inset 0px 12px 10px -10px
+}
+.Pedro{
+    display: inline-block;
+    width: 340px;
+    height: 800px;
+    background: #30475E;
+    margin-left: 120px;
+    box-shadow: inset 0px 12px 10px -10px
+}
+
+
+
+
+footer{
+    /* flex-shrink: 0; */
+    background-color: rgb(15, 15, 15);
+    padding: 5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}

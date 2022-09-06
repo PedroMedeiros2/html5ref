@@ -141,7 +141,7 @@ p.homePage{
     font-weight: 300;
     
 }
-div.btn{
+.btn{
     position: absolute;
     background-color: #F05454;
     /* height: 120px; */
@@ -169,7 +169,7 @@ div.btn{
     color: #FFF8B8;
 }
 .triangle{
-    display: flex;
+    /* display: flex; */
     position: absolute;
     width: 70px;
     height: 70px;
