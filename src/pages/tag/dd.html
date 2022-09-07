@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt td &gt</title>
+    <title>Tag &lt dd &gt</title>
     <link rel="stylesheet" href="../../styles/style_tag.css">
 </head>
 
@@ -19,15 +19,15 @@
 
     <section class="banner">
         <div class="mainD">
-            <h1>tag &lt td &gt</h1>
+            <h1>tag &lt dd &gt</h1>
 
             <!-- botoes de anterior e proximo -->
             <div class="botoes1">
                 <div class="botaoE">
-                    <a href="./progress.html">&lt Anterior</a>
+                    <a href="./big.html">&lt Anterior</a>
                 </div>
                 <div class="botaoD">
-                    <a href="../referencias.html">Próximo &gt</a>
+                    <a href="./dt.html">Próximo &gt</a>
                 </div>
             </div>
 
@@ -36,21 +36,18 @@
             <h2 class="cB">Exemplo</h2>
             <div class="cod1">
                 <p>
-                    Uma tabela HTML simples, com duas células da tabela:
+                    Uma lista de descrição, com termos e descrições:
                 </p>
                 <div class="cod00">
                     <div class="conteudoCod">
                         <p>
-                            <pre>
-<code>
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Cell A&lt;/td&gt;
-        &lt;td&gt;Cell B&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code>
-                            </pre>
+                            <code>
+                                &ltdl&gt<br>  
+                                &ltdt&gtCoffee&lt/dt&gt<br>  
+                                &ltdd&gtBlack hot drink&lt/dd&gt<br> 
+                                &ltdt&gtMilk&lt/dt&gt<br>  
+                                &ltdd&gtWhite cold drink&lt/dd&gt<br>&lt/dl&gt
+                                </code>
                         </p>
                     </div>
                 </div>
@@ -63,17 +60,10 @@
                 <h2>Definição e Uso</h2>
                 <div class="pontilhado">
                     <div class="def">
-                        <p> 
-                            A tag &lt;td&gt; define uma célula padrão em uma tabela HTML.<br>
-                            Uma tabela HTML possui dois tipos de células:<br>
-                        </p>
-                        <ul>
-                            <li>Células do cabeçalho - contém informações do cabeçalho (criadas com o elemento &lt;th&gt; ) </li>
-                            <li>Células padrão - contém dados (criados com o elemento &lt;td&gt;) </li>
-                        </ul>
                         <p>
-                            O texto em &lt;th&gt; elementos está em negrito e centralizado por padrão.<br>
-                            O texto nos elementos &lt;td&gt; é regular e alinhado à esquerda por padrão.<br>
+                            A &ltdd&gttag é usada para descrever um termo/nome em uma lista de descrição.<br>
+                            A &ltdd&gttag é usada em conjunto com &ltdl&gt (define uma lista de descrição) e &ltdt&gt (define termos/nomes).<br>
+                            Dentro de uma &ltdd&gttag você pode colocar parágrafos, quebras de linha, imagens, links, listas, etc.<br>
                         </p>
                     </div>
                     <div class="triangle2"></div>
@@ -164,23 +154,18 @@
             <h2 class="cR">Outros Exemplos</h2>
             <div class="cod2">
                 <p>
-                    Use CSS para estilizar o elemento &ltaside&gt:
+                    Configurações padrão de CSS do &ltdd&gt:
                 </p>
                 <div class="cod002">
                     <div class="conteudoCod">
                         <p>
                             <code>
-                                &lttable&gt <br>
-                                        &lttr&gt <br>
-                                        &ltth&gtMonth&lt/th&gt <br>
-                                        &ltth&gtSavings&lt/th&gt <br>
-                                        &lt/tr&gt <br>
-                                        &lttr&gt <br>
-                                        &lttd style="background-color:#FF0000"&gtJanuary&lt/td&gt <br>
-                                        &lttd style="background-color:#00FF00"&gt$100&lt/td&gt <br>
-                                        &lt/tr&gt <br>
-                                    &lt/table&gt
-                            </code>
+                                    dd {<br>
+                                        display: block;<br>
+                                        margin-left: 40px;<br>
+                                    }
+
+                                </code>
                         </p>
                     </div>
                 </div>
@@ -190,10 +175,10 @@
             <!-- botoes de anterior e proximo -->
             <div class="botoes2">
                 <div class="botaoE">
-                    <a href="./progress.html">&lt Anterior</a>
+                    <a href="./big.html">&lt Anterior</a>
                 </div>
                 <div class="botaoD">
-                    <a href="../referencias.html">Próximo &gt</a>
+                    <a href="./dt.html">Próximo &gt</a>
                 </div>
             </div>
 
