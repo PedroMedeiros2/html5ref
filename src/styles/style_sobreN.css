@@ -58,35 +58,80 @@ nav{
 
 main{
     background-color: #F5F5F5;
-    /* display: flex;
-    flex: 1 0 auto;  */
-    /* flex-wrap: wrap; */
     box-shadow: inset 0px 12px 10px -10px #000000;
-    /* min-height: 90vh; */
 }
 
 .corpo1{
     min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
 }
-.Daniel{
-    display: inline-block;
+.Daniel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 340px;
     height: 800px;
     background: #F05454;
-    margin-left: 120px;
-    box-shadow: inset 0px 12px 10px -10px
+    margin-left: 5%;
+    box-shadow: inset 0px 12px 10px -10px;
+    /* padding: 10px; */
+}
+.Daniel .foto{
+    background-image: url('../res/img/Daniel.jpg');
 }
 .Pedro{
-    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 340px;
     height: 800px;
     background: #30475E;
-    margin-left: 120px;
-    box-shadow: inset 0px 12px 10px -10px
+    margin-left: 5%;
+    box-shadow: inset 0px 12px 10px -10px;
+    /* padding: 10px; */
+}
+.Pedro .foto{
+    background-image: url('../res/img/Pedro.jpg');
+}
+.nome{
+    color: #F5F5F5;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 20px ;
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    background: #F5F5F5;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+}
+.texto1{
+    padding: 20px 35px;
+    color: #F5F5F5;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.texto2{
+    padding: 20px 35px;
+    color: #F5F5F5;
+    font-size: 1em;
+    font-weight: 300;
+}
+.gitLi{
+    display: flex;
+    padding-left: 180px;
 }
 
-
-
+.linkedin img , .git img{
+    width: 60px;
+}
+.linkedin , .git{
+    padding: 10px 20px 10px 0px;
+}
 
 footer{
     /* flex-shrink: 0; */
@@ -95,4 +140,21 @@ footer{
     color: white;
     text-align: center;
     align-items: center;
+}
+.triangle1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, var(--secondary2) 50%, var(--secondary2) 100%);
+    right: 0;
+    top: 40%;
+}
+.triangle2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, var(--secondary1) 50%, var(--secondary1) 100%);
+    transform: rotate(90deg);
+    
+    bottom: 0;
 }
