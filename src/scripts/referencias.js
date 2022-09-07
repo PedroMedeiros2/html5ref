@@ -1,3 +1,4 @@
+// Cria tabala de forma automatica baseado em um JSON
 function gen_tableAll() {
     fetch('../Table.json')
         .then(response => response.json())
