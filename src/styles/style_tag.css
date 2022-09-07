@@ -27,6 +27,7 @@
 body {
     font-family: 'Inter';
     background-color: #F5F5F5;
+    background: url('../res/img/fundo_Tag2.svg') bottom right no-repeat;
 }
 
 .bodyRef{
@@ -82,9 +83,7 @@ nav{
 
 section{
     background-color: #F5F5F5;
-    background-image: url('../res/img/fundo_Tag.svg');
-    background-repeat: no-repeat;
-    background-position: center right;
+    background: url('../res/img/fundo_Tag.svg') center right no-repeat;
     box-shadow: inset 0px 12px 10px -10px #000000;
     min-height: 93vh;
 }
