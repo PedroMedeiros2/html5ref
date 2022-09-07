@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+/* 1 - Declaração das variáveis utilizadas */
+:root {
+    --primary1: #F05454;
+    --primary2: #30475E;
+    --secondary1: #222831;
+    --secondary2: #F5F5F5;
+    --detail: #FFF8B8;
+}
+
+/* 2 - Formatação padrão dos componentes */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter'; 
+}
+
+header{
+    background-color: #F05454;
+    padding: 20px 0px;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botaoHome {
+    color: var(--primary1);
+    background-color: var(--secondary2);
+    border: none;
+    margin: 0em 0em;
+    font-size: 1.5em;
+    padding: 20px 60px;
+    text-decoration: none;
+    transition-delay: 0.15s;
+}
+.botaoHome:hover{
+    color: var(--secondary2);
+    background-color: var(--primary1);
+    /* border-bottom: 5px solid var(--primary2); */
+    padding: 20px 60px;
+    transition-delay: 0.1s;
+}
+
+main{
+    background-color: #F5F5F5;
+    box-shadow: inset 0px 12px 10px -10px #000000;
+}
+
+.corpo1{
+    min-height: 90vh;
+    margin-bottom: -1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../res/img/fundo_SN.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.Daniel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 800px;
+    background: #F05454;
+    margin-left: 5%;
+    box-shadow: inset 0px 12px 10px -10px;
+    /* padding: 10px; */
+}
+.Daniel .foto{
+    background-image: url('../res/img/Daniel.jpg');
+}
+.Pedro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 800px;
+    background: #30475E;
+    margin-left: 5%;
+    box-shadow: inset 0px 12px 10px -10px;
+    /* padding: 10px; */
+}
+.Pedro .foto{
+    background-image: url('../res/img/Pedro.jpg');
+}
+.nome{
+    color: #F5F5F5;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 20px ;
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    background: #F5F5F5;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+}
+.texto1{
+    padding: 20px 35px;
+    color: #F5F5F5;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.texto2{
+    padding: 20px 35px;
+    color: #F5F5F5;
+    font-size: 1em;
+    font-weight: 300;
+}
+.gitLi{
+    display: flex;
+    padding-left: 180px;
+}
+
+.linkedin img , .git img{
+    width: 60px;
+}
+.linkedin , .git{
+    padding: 10px 20px 10px 0px;
+}
+
+footer{
+    /* flex-shrink: 0; */
+    background-color: rgb(15, 15, 15);
+    padding: 5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.triangle1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, var(--secondary2) 50%, var(--secondary2) 100%);
+    right: 0;
+    top: 40%;
+}
+.triangle2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, var(--secondary1) 50%, var(--secondary1) 100%);
+    transform: rotate(90deg);
+    
+    bottom: 0;
+}
