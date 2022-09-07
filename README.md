@@ -50,9 +50,9 @@ O resultado desse projeto pode ser visto aqui: [https://pedromedeiros2.github.io
 
   
 
-- [ ] Implementar interface
+- [x] Implementar interface
 
   
 
-- [ ] Teste e Correção
+- [x] Teste e Correção
 
