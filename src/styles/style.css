@@ -78,6 +78,9 @@ div.Pri{
     position: relative;
     display: inline;
     background-color: #30475E;
+    background-image: url('../res/img/fundo_Index.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
     width: 57%;
     box-shadow: inset 0px -12px 10px -10px #000000 , inset 0px 10px 10px -10px #000000 ;
 }
