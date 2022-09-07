@@ -20,6 +20,7 @@ body {
 
 .bodyRef{
     background-color: var(--secondary2);
+    
 }
 
 header{
@@ -73,6 +74,9 @@ nav{
 section{
     background-color: #F5F5F5;
     box-shadow: inset 0px 12px 10px -10px #000000;
+    background-image: url('../res/img/fundo_Refs.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
 }
 
 .divTab{
