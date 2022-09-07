@@ -16,8 +16,6 @@ O resultado desse projeto pode ser visto aqui: [https://pedromedeiros2.github.io
 
 - Daniel Alves Fonseca Neto
 
-- Emerson Eustáquio Santos Rodrigues Versiani
-
 - Pedro Henrique Soares Medeiros.
 
   
