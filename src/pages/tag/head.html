@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt td &gt</title>
+    <title>Tag &lt head &gt</title>
     <link rel="stylesheet" href="../../styles/style_tag.css">
 </head>
 
@@ -19,15 +19,15 @@
 
     <section class="banner">
         <div class="mainD">
-            <h1>tag &lt td &gt</h1>
+            <h1>tag &lt head &gt</h1>
 
             <!-- botoes de anterior e proximo -->
             <div class="botoes1">
                 <div class="botaoE">
-                    <a href="./progress.html">&lt Anterior</a>
+                    <a href="./dt.html">&lt Anterior</a>
                 </div>
                 <div class="botaoD">
-                    <a href="../referencias.html">Próximo &gt</a>
+                    <a href="./li.html">Próximo &gt</a>
                 </div>
             </div>
 
@@ -36,21 +36,23 @@
             <h2 class="cB">Exemplo</h2>
             <div class="cod1">
                 <p>
-                    Uma tabela HTML simples, com duas células da tabela:
+                    Um documento HTML, com a tag &lt;title&gt; dentro da seção head:
                 </p>
                 <div class="cod00">
                     <div class="conteudoCod">
                         <p>
-                            <pre>
-<code>
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Cell A&lt;/td&gt;
-        &lt;td&gt;Cell B&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code>
-                            </pre>
+                            <code>
+                                &lt;!DOCTYPE html&gt;<br>
+                                &lt;html&gt;<br>
+                                    &lt;head&gt;<br>
+                                        &lt;title&gt;Title of the document&lt;/title&gt;<br>
+                                    &lt;/head&gt;<br>
+                                    
+                                    &lt;body&gt;<br>
+                                        The content of the document......<br>
+                                    &lt;/body&gt;<br>
+                                &lt;/html&gt;<br>
+                            </code>
                         </p>
                     </div>
                 </div>
@@ -63,18 +65,20 @@
                 <h2>Definição e Uso</h2>
                 <div class="pontilhado">
                     <div class="def">
-                        <p> 
-                            A tag &lt;td&gt; define uma célula padrão em uma tabela HTML.<br>
-                            Uma tabela HTML possui dois tipos de células:<br>
+                        <p>
+                            A tag &lt;head&gt; é um container para todos elementos do cabeçalho.<br>
+                            A tag &lt;head&gt; pode incluir um título para o documento, scripts, estilos, informações meta, dentro outras.<br>
+                            Os seguintes elementos podem ser colocados dentro da tag &lt;head&gt;:<br>
                         </p>
                         <ul>
-                            <li>Células do cabeçalho - contém informações do cabeçalho (criadas com o elemento &lt;th&gt; ) </li>
-                            <li>Células padrão - contém dados (criados com o elemento &lt;td&gt;) </li>
+                            <li>&lt;title&gt; (Esse elemento é requerido em um documento HTML)</li>
+                            <li>&lt;style&gt;</li>
+                            <li>&lt;base&gt;</li>
+                            <li>&lt;link&gt;</li>
+                            <li>&lt;meta&gt;</li>
+                            <li>&lt;script&gt;</li>
+                            <li>&lt;noscript&gt;  </li>
                         </ul>
-                        <p>
-                            O texto em &lt;th&gt; elementos está em negrito e centralizado por padrão.<br>
-                            O texto nos elementos &lt;td&gt; é regular e alinhado à esquerda por padrão.<br>
-                        </p>
                     </div>
                     <div class="triangle2"></div>
                 </div>
@@ -164,22 +168,21 @@
             <h2 class="cR">Outros Exemplos</h2>
             <div class="cod2">
                 <p>
-                    Use CSS para estilizar o elemento &ltaside&gt:
+                    A tag &ltbase&gt (especifica um URL padrão e um destino para todos os links em uma página) vai dentro de &lthead&gt:
                 </p>
                 <div class="cod002">
                     <div class="conteudoCod">
                         <p>
                             <code>
-                                &lttable&gt <br>
-                                        &lttr&gt <br>
-                                        &ltth&gtMonth&lt/th&gt <br>
-                                        &ltth&gtSavings&lt/th&gt <br>
-                                        &lt/tr&gt <br>
-                                        &lttr&gt <br>
-                                        &lttd style="background-color:#FF0000"&gtJanuary&lt/td&gt <br>
-                                        &lttd style="background-color:#00FF00"&gt$100&lt/td&gt <br>
-                                        &lt/tr&gt <br>
-                                    &lt/table&gt
+                                "&lthtml&gt<br>
+                                &lthead&gt<br>  
+                                &ltbase href=\"https://www.w3schools.com/\" target=\"_blank\"&gt<br>
+                                &lt/head&gt<br>
+                                &ltbody&gt<br><br>
+                                &ltimg src=\"images/stickman.gif\" width=\"24\" height=\"39\" alt=\"Stickman\"&gt<br>
+                                &lta href=\"tags/tag_base.asp\"&gtHTML base Tag&lt/a&gt<br><br>
+                                &lt/body&gt<br>
+                                &lt/html&gt"
                             </code>
                         </p>
                     </div>
@@ -190,10 +193,10 @@
             <!-- botoes de anterior e proximo -->
             <div class="botoes2">
                 <div class="botaoE">
-                    <a href="./progress.html">&lt Anterior</a>
+                    <a href="./dt.html">&lt Anterior</a>
                 </div>
                 <div class="botaoD">
-                    <a href="../referencias.html">Próximo &gt</a>
+                    <a href="./li.html">Próximo &gt</a>
                 </div>
             </div>
 

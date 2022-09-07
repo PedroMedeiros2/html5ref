@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt td &gt</title>
+    <title>Tag &lt li &gt</title>
     <link rel="stylesheet" href="../../styles/style_tag.css">
 </head>
 
@@ -19,15 +19,15 @@
 
     <section class="banner">
         <div class="mainD">
-            <h1>tag &lt td &gt</h1>
+            <h1>tag &lt li &gt</h1>
 
             <!-- botoes de anterior e proximo -->
             <div class="botoes1">
                 <div class="botaoE">
-                    <a href="./progress.html">&lt Anterior</a>
+                    <a href="./head.html">&lt Anterior</a>
                 </div>
                 <div class="botaoD">
-                    <a href="../referencias.html">Próximo &gt</a>
+                    <a href="./output.html">Próximo &gt</a>
                 </div>
             </div>
 
@@ -36,21 +36,26 @@
             <h2 class="cB">Exemplo</h2>
             <div class="cod1">
                 <p>
-                    Uma tabela HTML simples, com duas células da tabela:
+                    Um documento HTML, com a tag &lt;title&gt; dentro da seção head:
                 </p>
                 <div class="cod00">
                     <div class="conteudoCod">
                         <p>
-                            <pre>
-<code>
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Cell A&lt;/td&gt;
-        &lt;td&gt;Cell B&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code>
-                            </pre>
+                            <code>
+                                <code>
+                                    &lt;ol&gt;<br>
+                                        &lt;li&gt;Coffee&lt;/li&gt;<br>
+                                        &lt;li&gt;Tea&lt;/li&gt;<br>
+                                        &lt;li&gt;Milk&lt;/li&gt;<br>
+                                    &lt;/ol&gt;<br>
+                    
+                                    &lt;ul&gt;<br>
+                                        &lt;li&gt;Coffee&lt;/li&gt;<br>
+                                        &lt;li&gt;Tea&lt;/li&gt;<br>
+                                        &lt;li&gt;Milk&lt;/li&gt;<br>
+                                    &lt;/ul&gt;
+                                </code>
+                            </code>
                         </p>
                     </div>
                 </div>
@@ -63,17 +68,9 @@
                 <h2>Definição e Uso</h2>
                 <div class="pontilhado">
                     <div class="def">
-                        <p> 
-                            A tag &lt;td&gt; define uma célula padrão em uma tabela HTML.<br>
-                            Uma tabela HTML possui dois tipos de células:<br>
-                        </p>
-                        <ul>
-                            <li>Células do cabeçalho - contém informações do cabeçalho (criadas com o elemento &lt;th&gt; ) </li>
-                            <li>Células padrão - contém dados (criados com o elemento &lt;td&gt;) </li>
-                        </ul>
-                        <p>
-                            O texto em &lt;th&gt; elementos está em negrito e centralizado por padrão.<br>
-                            O texto nos elementos &lt;td&gt; é regular e alinhado à esquerda por padrão.<br>
+                        <p>            
+                            A tag &lt;li&gt; define um item de lista.<br>
+                            A tag &lt;li&gt; é usada em listas ordenadas (&lt;ol&gt;), não ordenadas(&lt;ul&gt;) e listas de menu (&lt;menu&gt;).<br>
                         </p>
                     </div>
                     <div class="triangle2"></div>
@@ -149,11 +146,10 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td> - </td>
-                            <td><i> - </i></td>
-                            <td>A tag &lt;aside&gt; suporta os Atributos Globais e os Atributos de Eventos.</td>
+                            <td>value</td>
+                            <td><i>number</i></td>
+                            <td>Especifica o valor de um item da lista. Os próximos itens da lista incrementarão daquele número (apenas para listas ordenadas &lt;ol&gt;)</td>
                         </tr>
-
                     </tbody>
                 </table>
 
@@ -164,23 +160,26 @@
             <h2 class="cR">Outros Exemplos</h2>
             <div class="cod2">
                 <p>
-                    Use CSS para estilizar o elemento &ltaside&gt:
+                    Uso do atributo value em uma lista ordenada:
                 </p>
                 <div class="cod002">
                     <div class="conteudoCod">
                         <p>
-                            <code>
-                                &lttable&gt <br>
-                                        &lttr&gt <br>
-                                        &ltth&gtMonth&lt/th&gt <br>
-                                        &ltth&gtSavings&lt/th&gt <br>
-                                        &lt/tr&gt <br>
-                                        &lttr&gt <br>
-                                        &lttd style="background-color:#FF0000"&gtJanuary&lt/td&gt <br>
-                                        &lttd style="background-color:#00FF00"&gt$100&lt/td&gt <br>
-                                        &lt/tr&gt <br>
-                                    &lt/table&gt
-                            </code>
+                            <pre>
+                                <code>
+                                    &lt;ol&gt;
+                                        &lt;li&gt;Coffee&lt;/li&gt;
+                                        &lt;li&gt;Tea&lt;/li&gt;
+                                        &lt;li&gt;Milk&lt;/li&gt;
+                                    &lt;/ol&gt;
+                    
+                                    &lt;ul&gt;
+                                        &lt;li&gt;Coffee&lt;/li&gt;
+                                        &lt;li&gt;Tea&lt;/li&gt;
+                                        &lt;li&gt;Milk&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                </code>
+                            </pre>
                         </p>
                     </div>
                 </div>
@@ -190,10 +189,10 @@
             <!-- botoes de anterior e proximo -->
             <div class="botoes2">
                 <div class="botaoE">
-                    <a href="./progress.html">&lt Anterior</a>
+                    <a href="./head.html">&lt Anterior</a>
                 </div>
                 <div class="botaoD">
-                    <a href="../referencias.html">Próximo &gt</a>
+                    <a href="./output.html">Próximo &gt</a>
                 </div>
             </div>
 
